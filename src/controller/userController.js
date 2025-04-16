@@ -27,7 +27,10 @@ exports.getAllUser = catchAsync(async (req, res, next) => {
 exports.getUserById = catchAsync(async (req, res, next) => {
   const { id } = req.params;
 
-  const user = await Model.UserModel.findByPk(id);
+  const user = await Model.UserModel.findByPk(id, {
+    attributes: ["id", "email", "name"],
+    raw: true,
+  });
 
   if (!user) {
     return next(new AppError("User not found", 404));
