@@ -48,21 +48,6 @@ All endpoints are documented using Swagger. To view the API docs, visit:
 
 `http://localhost:3000/api-docs`
 
-## 📁 Folder Structure
-task-management-api/
-├── src/
-│   ├── config/          # Configuration files (e.g., DB connection, Environment setup and Entrypoint)
-│   ├── controllers/     # Logic for handling requests (Auth, Task, User)
-│   ├── middleware/      # Custom middleware (e.g., auth, error handler)
-│   ├── models/          # Mongoose schemas/models
-│   ├── routes/          # Express route definitions
-│   ├── utils/           # Utility/helper functions
-├── .env                 # Environment variables
-├── .gitignore           # Files/folders to ignore by Git
-├── package.json         # Project metadata and dependencies
-├── README.md            # Project documentation
-
-
 ## 🛠️ Tech Stack
 
 - Node.js
