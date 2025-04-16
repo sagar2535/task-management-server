@@ -59,12 +59,12 @@ All endpoints are documented using Swagger. To view the API docs, visit:
 ## 📦 Installation
 
 ```bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/sagar2535/task-management-server.git
+cd task-management-server
 npm install
 ```
 
-## 📦 Envoriment Variables
+## 🔐 Envoriment Variables
 
 NODE_ENV=devlopment
 
